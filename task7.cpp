@@ -39,7 +39,8 @@ int main(){
 
     //Checks if the passLength boolean is true or false and prints results accordingly
     if(passLength(userPass)){
-        std::cout<<"Your password meets the required length."<<std::endl;
+        std::cout<<"\nYour password meets the required length."<<std::endl;
+        std::cout<<"Here's an evaluation of your password: ";
 
     //If previous boolean was true, the StrongPass boolean is checked for a true/false value
         if(StrongPass(userPass)){
