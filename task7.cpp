@@ -31,7 +31,7 @@ int main(){
 
     //Message greetings and instructions + password storage
     std::cout<<"Welcome to MyPassword, where we work to create the best passwords possible!"<<std::endl;
-    std::cout<<"To be absolutely perfect, your password needs to be a minimum of 8 charachers. ";
+    std::cout<<"To be absolutely perfect, your password needs to be a minimum of 8 charachers."<<std::endl;
     std::cout<<"In addition, it will have to contain the following:\nOne uppercase letter."<<std::endl;
     std::cout<<"One lowercase letter.\nOne digit.\nOne special character."<<std::endl;
     std::cout<<"Now that we've covered the basics, please type in your password: ";
